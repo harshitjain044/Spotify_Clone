@@ -2,7 +2,7 @@ import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import MainContent from "./components/MainContent";
 import BottomBar from "./components/BottomBar";
-import "./app.css"
+import "./App.css"
 
 export default function App() {
   return (

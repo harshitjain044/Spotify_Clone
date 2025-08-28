@@ -6,7 +6,7 @@ import demoImage from '../assets/demoImage.jpg'
 
 export default function PopularArtists() {
 const artists = [
-  { name: "Pritam", image: "https://i.scdn.co/image/ab6761610000e5ebcb6926f44f620555ba444fca" },
+  { name: "Shaurya Gupta", image: "https://i.scdn.co/image/ab6761610000e5ebcb6926f44f620555ba444fca" },
   { name: "A.R. Rahman", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgxNoh-HW__QZ0YOIfcwseT8kv58Y0b3qSFQ&s" },
   { name: "Arijit Singh", image: "https://a10.gaanacdn.com/gn_img/artists/Dk9KNk23Bx/k9KNqJJbBx/size_m_1739172212.jpg" },
   { name: "Sachin-Jigar", image: "https://i.scdn.co/image/ab6761610000e5ebbb4064bef3a825344d5eb79e" },
