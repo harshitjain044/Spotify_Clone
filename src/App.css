@@ -1,0 +1,31 @@
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px; /* scrollbar thickness */
+  height: 8px; /* for horizontal scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #111; /* background of track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffffff18; /* green like Spotify */
+  border-radius: 9999px; /* rounded scrollbar */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff18; /* lighter green on hover */
+}
+html {
+  scrollbar-color: #ffffff18 #111; /* Firefox support */
+  scrollbar-width: thin;
+}
+/* App.css */
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE & Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}
